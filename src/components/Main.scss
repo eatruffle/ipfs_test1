@@ -1,0 +1,8 @@
+@import 'base';
+
+.main-container {
+  min-height: calc(100vh - 400px);
+  height: auto;
+  border-bottom: var(--line-blue-dark);
+  border-top: var(--line-blue-dark);
+}

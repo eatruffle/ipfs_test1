@@ -1,0 +1,49 @@
+@import 'base';
+
+.product-tile {
+  width: 31rem;
+  height: 55rem;
+  margin: 9px;
+  border: var(--line-grey);
+  border-radius: 0.5rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42rem;
+}
+
+.product-image {
+  width: auto;
+  height: auto;
+}
+
+.product-description {
+  margin-bottom: auto;
+  height: 11rem;
+  padding: 1rem;
+  background-color: var(--color-grey-light-1);
+
+  &__name{
+    height: 6rem;
+  }
+  &__overview {
+    display: flex;
+    justify-content: space-between;
+
+    &-price{
+      height: 2rem;
+      align-self: center;
+      font-size: 2rem;
+    }
+    &-rate {
+      align-self: center;
+    }
+  }
+}
+
+.product-description > * {
+  margin-bottom: 0.5rem;
+}

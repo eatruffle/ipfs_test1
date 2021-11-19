@@ -1,0 +1,13 @@
+@import 'base';
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 5rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: var(--color-blue-dark-2);
+  border-radius: 0 0 25px 25px ;
+}
